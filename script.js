@@ -37,6 +37,6 @@ function timer(){
       }
    }
 
-   var format = (hh < 10 ? "0" + hh : hh) + ":" + (min < 10 ? "0" + min : min) + ":" + (sec < 10 ? "0" + sec : sec);
+   let format = (hh < 10 ? "0" + hh : hh) + ":" + (min < 10 ? "0" + min : min) + ":" + (sec < 10 ? "0" + sec : sec);
    document.querySelector("#counter").innerText = format;
 }
